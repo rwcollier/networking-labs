@@ -5,22 +5,7 @@ Design and implement a small branch-office network with multiple VLANs for traff
 
 ## Topology
 
-```
-                    [R1] Router
-                   Fa0/0 (trunk, router-on-a-stick)
-                       |
-                  [SW1] Distribution Switch
-                  Gi0/1 (trunk to R1)
-                    /          \
-            Fa0/24 (trunk)   Fa0/24 (trunk)
-                |                |
-          [SW2] Access      [SW3] Access
-          (Sales/Mgmt/Voice) (Engineering/Guest)
-            |    |    |        |    |
-          PC1  PC2  Phone1   PC3  PC4 (Guest)
-```
-
-*(Insert topology screenshot here)*
+![Topology Diagram](screenshots/lab1-layout.png)
 
 ## VLAN & Addressing Table
 
@@ -52,13 +37,18 @@ All verification commands and outputs below confirm the network is functioning a
 - PC-to-PC ping within same VLAN — successful
 - PC-to-PC ping across VLANs (e.g., Sales → Engineering) — successful, confirming inter-VLAN routing via R1
 
-*(Insert command output screenshots here)*
+![VLAN Brief](screenshots/SW1-vlans-confirmed.png)
+![Trunk Status](screenshots/SW3-trunk-confirm.png)
+![DHCP Binding](screenshots/R1-dhcp-confirm.png)
+![Inter-VLAN Ping](screenshots/ping-success.png)
 
 ## Known Gaps / Next Steps
 
 - **No traffic restriction between VLANs yet** — currently, Guest (VLAN 40) can reach Management (VLAN 30) and all other VLANs. This is intentional for Lab 1 to first prove routing works, and will be addressed with ACLs in Lab 4 (Sales/Engineering/Guest segmentation).
 - **No gateway redundancy** — a single router is a single point of failure for inter-VLAN routing. In production, this would be addressed with a second router/L3 switch and HSRP or VRRP.
 - **`errdisable recovery` automation not testable in Packet Tracer** — see troubleshooting notes below.
+
+![errdisable recovery](screenshots/err-disabled-port-error.png)
 
 ## Troubleshooting Notes
 
