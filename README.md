@@ -4,7 +4,7 @@ A portfolio of hands-on networking labs built in Cisco Packet Tracer, developed 
 
 ## About
 
-I'm transitioning into IT networking and cybersecurity from a background in cafe operations management and graphic design, currently studying for the CCNA 200-301. These labs are built to demonstrate practical, hands-on skills beyond just exam prep — each one includes real troubleshooting encountered during the build, documented the way I'd walk through it in an interview.
+I'm transitioning into network engineering from a background in cafe operations management and graphic design, currently studying for the CCNA 200-301. These labs are built to demonstrate practical, hands-on skills beyond just exam prep — each one includes real troubleshooting encountered during the build, documented the way I'd walk through it in an interview.
 
 ## Labs
 
