@@ -37,3 +37,4 @@ I'm transitioning into network engineering from a background in cafe operations 
 ## Contact
 
 https://www.linkedin.com/in/rwcollier
+https://youtube.com/@ryansroutingtable?si=QQ_BLqKIGRzU1n1_
