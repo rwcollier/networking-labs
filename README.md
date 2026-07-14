@@ -12,7 +12,7 @@ I'm transitioning into network engineering from a background in cafe operations 
 |---|---|---|---|
 | 1 | [Multi-VLAN Branch Office with Inter-VLAN Routing](./lab1-multivlan-routing) | VLANs, trunking, router-on-a-stick, DHCP, port security, native VLAN hardening | ✅ Complete |
 | 2 | [OSPF Multi-Area Network with Redundancy](./lab2-ospf-multiarea) | Multi-area OSPF, route summarization, redundant paths, MD5 authentication, convergence testing | ✅ Complete |
-| 3 | Spanning Tree + EtherChannel Redundancy | PVST+, root bridge tuning, LACP, loop prevention | 🔜 Planned |
+| 3 | [Spanning Tree + EtherChannel Redundancy](.lab3-spanning-tree-etherchannel) | PVST+, root bridge tuning, LACP, loop prevention | ✅ Complete |
 | 4 | ACLs for Network Segmentation | Standard/extended ACLs, VLAN traffic restriction | 🔜 Planned |
 | 5 | NAT/PAT + Internet Edge Simulation | PAT, static NAT, edge ACLs | 🔜 Planned |
 | 6 | Site-to-Site Connectivity (HQ + Branch) | WAN links, inter-site routing, GRE tunnel | 🔜 Planned |
@@ -37,4 +37,5 @@ I'm transitioning into network engineering from a background in cafe operations 
 ## Contact
 
 https://www.linkedin.com/in/rwcollier
+
 https://youtube.com/@ryansroutingtable?si=QQ_BLqKIGRzU1n1_
